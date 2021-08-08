@@ -11,7 +11,7 @@ Cloud RunへGithubから継続的デプロイ
 
 アプリを作成・構築・メンテするための`GCPのプロジェクト`を作成します。
 
-![スクリーンショット 2021-08-08 15.20.11.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/181c32cc-0055-40b0-0274-4a280feadf05.png "スクリーンショット 2021-08-08 15.20.11.png")
+<img width="500" alt="スクリーンショット 2021-08-08 15 20 11" src="https://user-images.githubusercontent.com/1316886/128625052-37b9f562-e6ce-486d-b24a-96f4e53f1a95.png">
 
 
 
@@ -19,14 +19,14 @@ Cloud RunへGithubから継続的デプロイ
 
 Cloud Runのページから、サービスの作成を選択
 
-![スクリーンショット 2021-08-08 15.29.18.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/50fce047-adbe-9772-ebf7-8fa7df59a628.png "スクリーンショット 2021-08-08 15.29.18.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f35306663653034372d616462652d393737322d656266372d3866613764663539613632382e706e67" src="https://user-images.githubusercontent.com/1316886/128625095-6e86efba-0ba1-4808-8e8e-3ec9445e5a4a.png">
 
 
 ## 1. サービスの設定
 
 サービス名を入力、リージョンを選択して、次へ
 
-![スクリーンショット 2021-08-08 15.31.12.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/11f66cbe-705b-a70f-5c57-0a0a71ab9b33.png "スクリーンショット 2021-08-08 15.31.12.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f31316636366362652d373035622d613730662d356335372d3061306137316162396233332e706e67" src="https://user-images.githubusercontent.com/1316886/128625156-c934869d-762d-4c6e-a254-8530a648e8f8.png">
 
 
 ## 2. サービスの最初のリビジョンの構成
@@ -35,7 +35,7 @@ Cloud Runのページから、サービスの作成を選択
 ここで、`ソース リポジトリから新しいリビジョンを継続的にデプロイする` を選択し、
 `SET UP WITH CLOUD BUILD` を押す
 
-![スクリーンショット 2021-08-08 15.33.02.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/4f1f8003-0e46-304d-7288-6012f895a1cc.png "スクリーンショット 2021-08-08 15.33.02.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f34663166383030332d306534362d333034642d373238382d3630313266383935613163632e706e67" src="https://user-images.githubusercontent.com/1316886/128625157-d0d32bce-9b45-4d14-8f7f-d1e3830320cf.png">
 
 
 ## 3. Cloud Build の設定
@@ -44,7 +44,7 @@ Cloud Build の設定が開く
 
 ### 3.1 リポジトリの選択
 
-![スクリーンショット 2021-08-08 15.34.52.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/868ea619-2f4a-2204-23db-397d732c9205.png "スクリーンショット 2021-08-08 15.34.52.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f38363865613631392d326634612d323230342d323364622d3339376437333263393230352e706e67" src="https://user-images.githubusercontent.com/1316886/128625159-6876e9c9-8841-4b70-b8bc-ad161f5a3a74.png">
 
 
 プロジェクトを新規作成した後であれば以下のようなメッセージが表示さえる。各々のAPIの設定を行う
@@ -53,7 +53,8 @@ Cloud Build の設定が開く
 - （省略可）Container Analysis（無料）を使用してソース情報を取得して表示します
 
 ボタンをぽちっと押すとAPI連携が始まる
-![スクリーンショット 2021-08-08 15.37.24.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/9e772271-206b-a6f7-7091-f1e463c09020.png "スクリーンショット 2021-08-08 15.37.24.png")
+
+<img width="500" alt="スクリーンショット 2021-08-08 15 37 24" src="https://user-images.githubusercontent.com/1316886/128625215-cff559cb-ae1a-41b9-ad5e-6e49a2686e67.png">
 
 
 ここでは、[以前作った](https://qiita.com/sugasaki/items/d5800aedafc7dd3f528c)Server Side Kotlinnの[リポジトリ](https://github.com/sugasaki/ktor-docker-hello)を指定しました。
@@ -61,7 +62,8 @@ Cloud Build の設定が開く
 https://qiita.com/sugasaki/items/d5800aedafc7dd3f528c
 
 
-![スクリーンショット 2021-08-08 15.39.55.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/c7bcf3ce-ecbb-afe1-5b49-7f5c8c09484d.png "スクリーンショット 2021-08-08 15.39.55.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f63376263663363652d656362622d616665312d356234392d3766356338633039343834642e706e67" src="https://user-images.githubusercontent.com/1316886/128625239-246a5d20-0880-42e8-8cb3-2752a697148e.png">
+
 
 リポジトリのミラーリングは未選択で進みました。
 
@@ -71,12 +73,15 @@ https://qiita.com/sugasaki/items/d5800aedafc7dd3f528c
 
 継続的デプロイに使用するブランチを選択します。
 
-![スクリーンショット 2021-08-08 15.44.48.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/ab2df42f-b52f-bf16-9425-3485a26debca.png "スクリーンショット 2021-08-08 15.44.48.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f61623264663432662d623532662d626631362d393432352d3334383561323664656263612e706e67" src="https://user-images.githubusercontent.com/1316886/128625293-e9709c2a-bbb9-426f-bf44-217720d7f9df.png">
+
 
 #### Build Typeの選択
 
 Githubのブランチ内にDockerfileをPUSH済なので、それを使います。
-![スクリーンショット 2021-08-08 15.47.43.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/30228d43-6a70-1be9-8349-db6f93a143a3.png "スクリーンショット 2021-08-08 15.47.43.png")
+
+<img width="491" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f33303232386434332d366137302d316265392d383334392d6462366639336131343361332e706e67" src="https://user-images.githubusercontent.com/1316886/128625296-4227a581-b877-4396-bccc-68ab884918de.png">
+
 
 入力終わったら保存を押します。
 
@@ -85,12 +90,15 @@ Githubのブランチ内にDockerfileをPUSH済なので、それを使います
 ポート番号や最大リクエスト数などの詳細設定ができます。
 必要におうじて変更をおこない、必要がなければ、次へボタンを押下
 
-![スクリーンショット 2021-08-08 15.51.18.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/3148654b-c2a8-8bbc-6d40-cda54ec25858.png "スクリーンショット 2021-08-08 15.51.18.png")
+
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f33313438363534622d633261382d386262632d366434302d6364613534656332353835382e706e67" src="https://user-images.githubusercontent.com/1316886/128625299-8f87d984-7e48-44ab-bad3-49100b938862.png">
 
 
 ### 3.4 サービスをトリガーする方法の構成
 
-![スクリーンショット 2021-08-08 15.52.54.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/47b7694a-9861-7435-a2a1-8a4dac28733b.png "スクリーンショット 2021-08-08 15.52.54.png")
+
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f34376237363934612d393836312d373433352d613261312d3861346461633238373333622e706e67" src="https://user-images.githubusercontent.com/1316886/128625300-e10c7a16-3402-41fd-b34b-cc35fbf81296.png">
+
 
 以下を選択して、作成ボタンを押す
 
@@ -102,7 +110,7 @@ Githubのブランチ内にDockerfileをPUSH済なので、それを使います
 
 作成ボタンを押すと「継続的デプロイを設定しています」の画面に切り替わります。
 
-![スクリーンショット 2021-08-08 15.56.48.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/33fc0f27-9d8e-221c-f69c-343ddce2e3ee.png "スクリーンショット 2021-08-08 15.56.48.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f33336663306632372d396438652d323231632d663639632d3334336464636532653365652e706e67" src="https://user-images.githubusercontent.com/1316886/128625327-b7a06c2a-6aa2-4a8c-bc6b-183c7c5d663d.png">
 
 
 ## Cloud Run管理画面へ
@@ -112,11 +120,12 @@ Githubのブランチ内にDockerfileをPUSH済なので、それを使います
 
 ジョブの実行が完了すると、URLが表示されます。
 
-![スクリーンショット 2021-08-08 16.02.40.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/8e5489fd-3d6c-9d36-78ac-651a863d99e7.png "スクリーンショット 2021-08-08 16.02.40.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f38653534383966642d336436632d396433362d373861632d3635316138363364393965372e706e67" src="https://user-images.githubusercontent.com/1316886/128625329-19bdefc0-5507-4da7-98cf-76e2a6492a8c.png">
+
 
 URLにアクセスすると、作成したアプリが表示されます。
 
-![スクリーンショット 2021-08-08 16.11.47.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/6d5b9f6d-3461-7a51-6e59-a40a6ebe3574.png "スクリーンショット 2021-08-08 16.11.47.png")
+<img width="438" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f36643562396636642d333436312d376135312d366535392d6134306136656265333537342e706e67" src="https://user-images.githubusercontent.com/1316886/128625334-2ffee224-aae3-4cbe-871f-996888ebfe25.png">
 
 
 
@@ -124,13 +133,12 @@ URLにアクセスすると、作成したアプリが表示されます。
 
 GithubへPUSHを検知して、Cloud Buildが起動します。
 
-![スクリーンショット 2021-08-08 16.07.46.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/0e0abc02-7f97-5bb1-02c3-d1581a4077d2.png "スクリーンショット 2021-08-08 16.07.46.png")
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f30653061626330322d376639372d356262312d303263332d6431353831613430373764322e706e67" src="https://user-images.githubusercontent.com/1316886/128625343-d9bd884d-7aff-4896-9d72-ae46386f29e4.png">
 
 
 ビルドが完了すると、デプロイされ、アプリが変更されます。
 
-![スクリーンショット 2021-08-08 16.13.43.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/49910/1056a53e-a446-10eb-8036-84c80ea87710.png "スクリーンショット 2021-08-08 16.13.43.png")
-
+<img width="500" alt="68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f34393931302f31303536613533652d613434362d313065622d383033362d3834633830656138373731302e706e67" src="https://user-images.githubusercontent.com/1316886/128625346-05b19072-9aff-4910-b13b-d675636a0813.png">
 
 
 
